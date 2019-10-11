@@ -2,10 +2,6 @@ from geopy.geocoders import Nominatim #geolocalizador
 from geopy import distance
 
 
-geolocalizador = Nominatim()
-ubicacion = geolocalizador.reverse("21.1526503,-101.6777939")
-print(ubicacion.address)
-
 jardines_del_moral = ("21.1466363,-101.6924656")
 haciendas_del_rosario = ("21.1536054,-101.6529349")
 obregon = ("21.1322351,-101.6916145")
